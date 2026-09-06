@@ -34,11 +34,16 @@ public class Main{
        naruto.addSaposContrato(sapo2);
        naruto.addSaposContrato(sapo3);
 
+       aldeiaFolha = null;
+       naruto = null;
+
         // Ilha dos Sapos
 
-        IlhaDosSapos ilhaSapos = new IlhaDosSapos();
+        IlhaDosSapos IlhaSapos = new IlhaDosSapos();
 
-
+        IlhaSapos.addSapos(sapo1);
+        IlhaSapos.addSapos(sapo2);
+        IlhaSapos.addSapos(sapo3);
 
 
     }

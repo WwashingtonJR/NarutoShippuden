@@ -26,4 +26,8 @@ public class Naruto extends Personagem implements ContratoSapos {
     }
 
 
+    @Override
+    public void gritar() {
+
+    }
 }

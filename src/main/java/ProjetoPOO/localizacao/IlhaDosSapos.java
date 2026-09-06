@@ -11,7 +11,11 @@ public class IlhaDosSapos {
     public IlhaDosSapos(){
 
         sapos = new ArrayList<>();
-
-
     }
+
+    public void addSapos(Sapos s){
+        sapos.add(s);
+    }
+
+
 }
