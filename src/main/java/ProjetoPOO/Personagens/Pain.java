@@ -1,4 +1,6 @@
 package ProjetoPOO.Personagens;
 
-public class Pain {
+import ProjetoPOO.Personagem;
+
+public class Pain extends Personagem {
 }

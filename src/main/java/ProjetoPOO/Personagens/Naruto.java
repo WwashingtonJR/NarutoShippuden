@@ -1,4 +1,11 @@
 package ProjetoPOO.Personagens;
 
-public class Naruto {
+import ProjetoPOO.Personagem;
+
+public class Naruto extends Personagem {
+
+
+
+
+
 }

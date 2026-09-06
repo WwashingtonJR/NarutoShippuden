@@ -1,4 +1,4 @@
 package ProjetoPOO;
 
-public class Personagem {
+public abstract class Personagem {
 }

@@ -1,4 +1,8 @@
 package ProjetoPOO.Sapaiada;
 
-public class Sapo2 {
+import ProjetoPOO.Sapos;
+
+public class Sapo2 extends Sapos {
+
+
 }

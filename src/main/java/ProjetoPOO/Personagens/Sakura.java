@@ -1,4 +1,9 @@
 package ProjetoPOO.Personagens;
 
-public class Sakura {
+import ProjetoPOO.Personagem;
+
+public class Sakura extends Personagem {
+
+
+
 }
