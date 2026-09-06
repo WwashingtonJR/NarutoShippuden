@@ -4,6 +4,9 @@ package ProjetoPOO;
 import ProjetoPOO.Personagens.Naruto;
 import ProjetoPOO.Personagens.Pain;
 import ProjetoPOO.Personagens.Sakura;
+import ProjetoPOO.Sapaiada.Sapo1;
+import ProjetoPOO.Sapaiada.Sapo2;
+import ProjetoPOO.Sapaiada.Sapo3;
 import ProjetoPOO.localizacao.AldeiaDaFolha;
 import ProjetoPOO.localizacao.IlhaDosSapos;
 
@@ -21,6 +24,16 @@ public class Main{
         aldeiaFolha.addPersonagem(naruto);
         aldeiaFolha.addPersonagem(sakura);
         aldeiaFolha.addPersonagem(pain);
+
+
+        Sapo1 sapo1 = new Sapo1();
+        Sapo2 sapo2 = new Sapo2();
+        Sapo3 sapo3 = new Sapo3();
+
+       naruto.addSaposContrato(sapo1);
+       naruto.addSaposContrato(sapo2);
+       naruto.addSaposContrato(sapo3);
+
         // Ilha dos Sapos
 
         IlhaDosSapos ilhaSapos = new IlhaDosSapos();
