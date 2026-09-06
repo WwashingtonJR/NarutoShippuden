@@ -6,8 +6,11 @@ public class Main{
 
         // Aldeia da Folha
 
+        AldeiaDaFolha aldeiaFolha = new AldeiaDaFolha();
 
         // Ilha dos Sapos
+
+        IlhaDosSapos ilhaSapos = new IlhaDosSapos();
 
 
 
